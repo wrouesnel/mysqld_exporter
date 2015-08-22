@@ -27,7 +27,7 @@ var (
 		"Path under which to expose metrics.",
 	)
 	perfTableIOWaits = flag.Bool(
-		"collect.perf_schema.tableiowaits", true,
+		"collect.perf_schema.tableiowaits", false,
 		"Collect metrics from performance_schema.table_io_waits_summary_by_table",
 	)
 	userStat = flag.Bool("collect.info_schema.userstats", false,
